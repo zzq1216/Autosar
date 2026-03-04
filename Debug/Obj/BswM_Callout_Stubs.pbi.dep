@@ -1,0 +1,30 @@
+BswM_Callout_Stubs.pbi: \
+  E:\S32K144\DAV_Project\Appl\Source\BswM_Callout_Stubs.c \
+  E:\S32K144\IAR_Project\Src\BSW\BswM\BswM.h \
+  E:\S32K144\DAV_Project\Appl\GenData\BswM_Cfg.h \
+  E:\S32K144\IAR_Project\Src\BSW\_Common\Std_Types.h \
+  E:\S32K144\IAR_Project\Src\BSW\_Common/Platform_Types.h \
+  E:\S32K144\IAR_Project\Src\BSW\_Common/Compiler.h \
+  E:\S32K144\IAR_Project\Include\Compiler_Cfg.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Rte_Compiler_Cfg.h \
+  E:\S32K144\IAR_Project\Include/Cdd_Tp_Compiler_Cfg.h \
+  E:\S32K144\IAR_Project\Include/Cdd_Com_Compiler_Cfg.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Os_Compiler_Cfg.h \
+  E:\S32K144\IAR_Project\Src\BSW\BswM\BswM_EcuM.h \
+  E:\S32K144\IAR_Project\Src\BSW\EcuM\EcuM.h \
+  E:\S32K144\IAR_Project\Src\BSW\EcuM/EcuM_Cbk.h \
+  E:\S32K144\DAV_Project\Appl\GenData\EcuM_Generated_Types.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Components\Rte_EcuM_Type.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Rte_Type.h \
+  E:\S32K144\DAV_Project\Appl\GenData/Rte.h \
+  E:\S32K144\DAV_Project\Appl\GenData/Rte_UserTypes.h \
+  E:\S32K144\DAV_Project\Appl\GenData/Rte_DataHandleType.h \
+  E:\S32K144\DAV_Project\Appl\GenData\EcuM_Cfg.h \
+  E:\S32K144\IAR_Project\Include\MemMap.h \
+  E:\S32K144\DAV_Project\Appl\GenData\BswM_Private_Cfg.h \
+  E:\S32K144\DAV_Project\Appl\GenData/BswM_Cfg.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Components\Rte_BswM.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Components/Rte_BswM_Type.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Rte_DataHandleType.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Components/BswM_MemMap.h \
+  E:\S32K144\DAV_Project\Appl\GenData/Rte_Main.h

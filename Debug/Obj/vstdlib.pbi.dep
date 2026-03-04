@@ -1,0 +1,12 @@
+vstdlib.pbi: E:\S32K144\IAR_Project\Src\BSW\VStdLib\vstdlib.c \
+  E:\S32K144\IAR_Project\Src\BSW\VStdLib/vstdlib.h \
+  E:\S32K144\IAR_Project\Src\BSW\_Common\Std_Types.h \
+  E:\S32K144\IAR_Project\Src\BSW\_Common/Platform_Types.h \
+  E:\S32K144\IAR_Project\Src\BSW\_Common/Compiler.h \
+  E:\S32K144\IAR_Project\Include\Compiler_Cfg.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Rte_Compiler_Cfg.h \
+  E:\S32K144\IAR_Project\Include/Cdd_Tp_Compiler_Cfg.h \
+  E:\S32K144\IAR_Project\Include/Cdd_Com_Compiler_Cfg.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Os_Compiler_Cfg.h \
+  E:\S32K144\IAR_Project\Include\VStdLib_Cfg.h \
+  E:\S32K144\IAR_Project\Include\MemMap.h
