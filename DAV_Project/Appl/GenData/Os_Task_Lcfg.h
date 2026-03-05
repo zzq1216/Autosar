@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Task_Lcfg.h
- *   Generation Time: 2026-03-03 13:14:00
+ *   Generation Time: 2026-03-04 18:50:50
  *           Project: S32K144 - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -74,6 +74,9 @@
 
 /*! Task configuration data: IdleTask_OsCore0 */
 extern CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_IdleTask_OsCore0;
+
+/*! Task configuration data: OsTask_APP */
+extern CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_OsTask_APP;
 
 /*! Task configuration data: OsTask_BSW */
 extern CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_OsTask_BSW;

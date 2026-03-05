@@ -60,11 +60,15 @@
             <Module Name="Port"/>
             <Module Name="Port"/>
             <Module Name="Port"/>
+            <Module Name="Port"/>
+            <Module Name="Port"/>
         </Splitter>
         <Splitter File=".\Config\ECUC\S32K144_vSet_ecuc.arxml">
             <Module Name="vSet"/>
         </Splitter>
         <Splitter File=".\Config\ECUC\S32K144_Base_ecuc.arxml">
+            <Module Name="Base"/>
+            <Module Name="Base"/>
             <Module Name="Base"/>
             <Module Name="Base"/>
             <Module Name="Base"/>
@@ -75,14 +79,20 @@
             <Module Name="Resource"/>
             <Module Name="Resource"/>
             <Module Name="Resource"/>
+            <Module Name="Resource"/>
+            <Module Name="Resource"/>
         </Splitter>
         <Splitter File=".\Config\ECUC\S32K144_Dio_ecuc.arxml">
             <Module Name="Dio"/>
             <Module Name="Dio"/>
             <Module Name="Dio"/>
             <Module Name="Dio"/>
+            <Module Name="Dio"/>
+            <Module Name="Dio"/>
         </Splitter>
         <Splitter File=".\Config\ECUC\S32K144_Mcu_ecuc.arxml">
+            <Module Name="Mcu"/>
+            <Module Name="Mcu"/>
             <Module Name="Mcu"/>
             <Module Name="Mcu"/>
             <Module Name="Mcu"/>
@@ -244,5 +254,8 @@
         <AmdGenerateDebugData>false</AmdGenerateDebugData>
         <AutomaticSyncSystemDescription>false</AutomaticSyncSystemDescription>
     </Miscellaneous>
-    <SwctGeneration/>
+    <SwctGeneration>
+        <Component Name="CT" GenerationEnabled="true"/>
+        <Component Name="CpLedTask" GenerationEnabled="true"/>
+    </SwctGeneration>
 </ProjectAssistant>

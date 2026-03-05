@@ -2544,10 +2544,31 @@
                 <name>$PROJ_DIR$\DAV_Project\Appl\Source\BswM_Callout_Stubs.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\Source\CtLedTask.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\DAV_Project\Appl\Source\EcuM_Callout_Stubs.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\DAV_Project\Appl\Source\Os_Callout_Stubs.c</name>
+            </file>
+        </group>
+        <group>
+            <name>SRC</name>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Dio_Cfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_Cfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_PBcfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_Cfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_PBcfg.c</name>
             </file>
         </group>
         <file>
@@ -2560,9 +2581,6 @@
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Det_Cfg.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Dio_Cfg.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\EcuM_Cfg.c</name>
         </file>
         <file>
@@ -2573,12 +2591,6 @@
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\EcuM_PBcfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_Cfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_PBcfg.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Os_AccessCheck_Lcfg.c</name>
@@ -2669,12 +2681,6 @@
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Os_XSignal_Lcfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_Cfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_PBcfg.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Rte.c</name>

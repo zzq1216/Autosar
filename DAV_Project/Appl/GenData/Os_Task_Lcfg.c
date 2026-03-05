@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Task_Lcfg.c
- *   Generation Time: 2026-03-03 16:27:15
+ *   Generation Time: 2026-03-05 12:35:40
  *           Project: S32K144 - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -85,6 +85,9 @@
 /*! Dynamic task data: IdleTask_OsCore0 */
 OS_LOCAL VAR(Os_TaskType, OS_VAR_NOINIT) OsCfg_Task_IdleTask_OsCore0_Dyn;
 
+/*! Dynamic task data: OsTask_APP */
+OS_LOCAL VAR(Os_TaskType, OS_VAR_NOINIT) OsCfg_Task_OsTask_APP_Dyn;
+
 /*! Dynamic task data: OsTask_BSW */
 OS_LOCAL VAR(Os_TaskType, OS_VAR_NOINIT) OsCfg_Task_OsTask_BSW_Dyn;
 
@@ -128,13 +131,45 @@ CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_IdleTask_OsCore0 =
     /* .InitDuringStartUp     = */ TRUE,
     /* .UsesFpu               = */ FALSE
   },
-  /* .HomePriority          = */ 1uL,
+  /* .HomePriority          = */ 2uL,
   /* .TaskId                = */ IdleTask_OsCore0,
-  /* .RunningPriority       = */ 1uL,
+  /* .RunningPriority       = */ 2uL,
   /* .MaxActivations        = */ 1uL,
   /* .AutostartModes        = */ (OSDEFAULTAPPMODE | OS_APPMODE_ANY),
   /* .AccessingApplications = */ OS_APPID2MASK(SystemApplication_OsCore0),
   /* .IsExtended            = */ FALSE,
+  /* .StackSharing          = */ OS_TASKSCHEDULE_ALLOWED
+};
+
+/*! Task configuration data: OsTask_APP */
+CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_OsTask_APP =
+{
+  /* .Thread                = */
+  {
+    /* .ContextConfig         = */ &OsCfg_Hal_Context_OsTask_APP,
+    /* .Context               = */ &OsCfg_Hal_Context_OsTask_APP_Dyn,
+    /* .Stack                 = */ &OsCfg_Stack_OsTask_APP,
+    /* .Dyn                   = */ OS_TASK_CASTDYN_TASK_2_THREAD(OsCfg_Task_OsTask_APP_Dyn),
+    /* .OwnerApplication      = */ &OsCfg_App_SystemApplication_OsCore0,
+    /* .Core                  = */ &OsCfg_Core_OsCore0,
+    /* .IntApiState           = */ &OsCfg_Core_OsCore0_Dyn.IntApiState,
+    /* .TimeProtConfig        = */ NULL_PTR,
+    /* .MpAccessRightsInitial = */ NULL_PTR,
+    /* .AccessRights          = */ &OsCfg_AccessCheck_NoAccess,
+    /* .Trace                 = */ NULL_PTR,
+    /* .FpuContext            = */ NULL_PTR,
+    /* .InitialCallContext    = */ OS_CALLCONTEXT_TASK,
+    /* .PreThreadHook         = */ &Os_TaskCallPreTaskHook,
+    /* .InitDuringStartUp     = */ TRUE,
+    /* .UsesFpu               = */ FALSE
+  },
+  /* .HomePriority          = */ 0uL,
+  /* .TaskId                = */ OsTask_APP,
+  /* .RunningPriority       = */ 0uL,
+  /* .MaxActivations        = */ 1uL,
+  /* .AutostartModes        = */ OS_APPMODE_NONE,
+  /* .AccessingApplications = */ OS_APPID2MASK(SystemApplication_OsCore0),
+  /* .IsExtended            = */ TRUE,
   /* .StackSharing          = */ OS_TASKSCHEDULE_ALLOWED
 };
 
@@ -160,7 +195,7 @@ CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_OsTask_BSW =
     /* .InitDuringStartUp     = */ TRUE,
     /* .UsesFpu               = */ FALSE
   },
-  /* .HomePriority          = */ 0uL,
+  /* .HomePriority          = */ 1uL,
   /* .TaskId                = */ OsTask_BSW,
   /* .RunningPriority       = */ 0uL,
   /* .MaxActivations        = */ 1uL,
@@ -192,7 +227,7 @@ CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_OsTask_Startup =
     /* .InitDuringStartUp     = */ TRUE,
     /* .UsesFpu               = */ FALSE
   },
-  /* .HomePriority          = */ 0uL,
+  /* .HomePriority          = */ 1uL,
   /* .TaskId                = */ OsTask_Startup,
   /* .RunningPriority       = */ 0uL,
   /* .MaxActivations        = */ 1uL,
@@ -213,6 +248,7 @@ CONST(Os_TaskConfigType, OS_CONST) OsCfg_Task_OsTask_Startup =
 CONSTP2CONST(Os_TaskConfigType, OS_CONST, OS_CONST) OsCfg_TaskRefs[OS_TASKID_COUNT + 1] =
 {
   OS_TASK_CASTCONFIG_TASK_2_TASK(OsCfg_Task_IdleTask_OsCore0),
+  OS_TASK_CASTCONFIG_TASK_2_TASK(OsCfg_Task_OsTask_APP),
   OS_TASK_CASTCONFIG_TASK_2_TASK(OsCfg_Task_OsTask_BSW),
   OS_TASK_CASTCONFIG_TASK_2_TASK(OsCfg_Task_OsTask_Startup),
   NULL_PTR

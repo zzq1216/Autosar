@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Compiler_Cfg.h
- *   Generation Time: 2026-03-03 13:14:00
+ *   Generation Time: 2026-03-04 18:50:50
  *           Project: S32K144 - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -36,6 +36,7 @@
  *  OS USER CALLOUT CODE SECTIONS
  *********************************************************************************************************************/
 
+# define OS_OSTASK_APP_CODE
 # define OS_OSTASK_BSW_CODE
 # define OS_OSTASK_STARTUP_CODE
 

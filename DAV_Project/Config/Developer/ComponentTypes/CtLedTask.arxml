@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00044.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="CF35F4AF-FACA-45D7-A56D-5BD92D93FE17">
+      <SHORT-NAME>ComponentTypes</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE UUID="3CEAAE1B-B305-4406-A867-0971874A9E11">
+          <SHORT-NAME>CtLedTask</SHORT-NAME>
+          <INTERNAL-BEHAVIORS>
+            <SWC-INTERNAL-BEHAVIOR UUID="7D08146F-FB7F-489B-B3AC-1B7154B7FA7B">
+              <SHORT-NAME>CtLedTask_InternalBehavior</SHORT-NAME>
+              <EVENTS>
+                <TIMING-EVENT UUID="5C9D92E3-8275-4F45-8090-333E7EEF7717">
+                  <SHORT-NAME>TMT_LedRunnable</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ComponentTypes/CtLedTask/CtLedTask_InternalBehavior/LedRunnable</START-ON-EVENT-REF>
+                  <PERIOD>0.3</PERIOD>
+                </TIMING-EVENT>
+                <INIT-EVENT UUID="3A59A299-8F98-4B78-BCB4-DB241F6BE724">
+                  <SHORT-NAME>CtLedTask_InitEvent</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ComponentTypes/CtLedTask/CtLedTask_InternalBehavior/CtLedTask_InitRunnable</START-ON-EVENT-REF>
+                </INIT-EVENT>
+              </EVENTS>
+              <RUNNABLES>
+                <RUNNABLE-ENTITY UUID="3F54168B-8191-4747-98A9-5037E35CEA04">
+                  <SHORT-NAME>LedRunnable</SHORT-NAME>
+                </RUNNABLE-ENTITY>
+                <RUNNABLE-ENTITY UUID="6DE94888-22F6-412D-980E-460A1A72289F">
+                  <SHORT-NAME>CtLedTask_InitRunnable</SHORT-NAME>
+                  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="edve:RunnableKind">
+                        <SD>InitRunnable</SD>
+                      </SDG>
+                    </SDGS>
+                  </ADMIN-DATA>
+                </RUNNABLE-ENTITY>
+              </RUNNABLES>
+              <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
+            </SWC-INTERNAL-BEHAVIOR>
+          </INTERNAL-BEHAVIORS>
+        </APPLICATION-SW-COMPONENT-TYPE>
+        <SWC-IMPLEMENTATION UUID="277C7321-1AA2-454A-A593-535C41721621">
+          <SHORT-NAME>CtLedTask_Implementation</SHORT-NAME>
+          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/ComponentTypes/CtLedTask/CtLedTask_InternalBehavior</BEHAVIOR-REF>
+        </SWC-IMPLEMENTATION>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

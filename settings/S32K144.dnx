@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>1752560342</Checksum>
+        <Checksum>265007139</Checksum>
     </DebugChecksum>
     <Disassembly>
         <InstrCount>0</InstrCount>
@@ -73,9 +73,9 @@
     </DisassembleMode>
     <Breakpoints2>
         <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\DAV_Project\Appl\GenData\BswM_Lcfg.c}.799.5" 0 0 1 "" 0 "" 0</Bp0>
-        <Bp1>_ 1 "EMUL_CODE" "{$PROJ_DIR$\DAV_Project\Appl\GenData\BswM_Lcfg.c}.783.5" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\DAV_Project\Appl\GenData\BswM_Lcfg.c}.783.5" 0 0 1 "" 0 "" 0</Bp1>
         <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\IAR_Project\Src\BSW\BswM\BswM.c}.450.1" 0 0 1 "" 0 "" 0</Bp2>
-        <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\IAR_Project\Src\BSW\Os\Os_Core.c}.1327.5" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\IAR_Project\Src\BSW\Os\Os_Core.c}.1327.5" 0 0 1 "" 0 "" 0</Bp3>
         <Count>4</Count>
     </Breakpoints2>
     <TermIOLog>

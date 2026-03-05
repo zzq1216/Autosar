@@ -26,6 +26,25 @@
  * They are presented as a comment in the corresponding object definition containing a list of all legal values.
  *********************************************************************************************************************/
 
+   TASK OsTask_APP {
+      ACTIVATION = 1:"@RO@";
+      PRIORITY = 15:"@RO@";
+      SCHEDULE = FULL:"@RO@";
+// TIMING_PROTECTION = FALSE|TRUE; (AUTOSAR OS only)
+      AUTOSTART = FALSE:"@RO@";
+      EVENT = Rte_Ev_Run_CpLedTask_LedRunnable:"@RO@";
+   }:"@RO@@NR@";
+
+   ALARM Rte_Al_TE_CpLedTask_LedRunnable {
+      COUNTER = SystemTimer;
+      ACTION = SETEVENT
+      {
+         TASK = OsTask_APP;
+         EVENT = Rte_Ev_Run_CpLedTask_LedRunnable;
+      }:"@ROC@";
+      AUTOSTART = FALSE:"@RO@";
+   }:"@RO@@NR@";
+
    TASK OsTask_BSW {
       ACTIVATION = 1:"@RO@";
       PRIORITY = 10:"@RO@";
@@ -42,3 +61,7 @@
       }:"@ROC@";
       AUTOSTART = FALSE:"@RO@";
    }:"@RO@@NR@";
+
+   EVENT Rte_Ev_Run_CpLedTask_LedRunnable {
+      MASK = AUTO;
+   }:"@ROC@@NR@";

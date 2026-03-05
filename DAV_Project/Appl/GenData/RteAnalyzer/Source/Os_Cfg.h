@@ -25,12 +25,15 @@
 /* Os definitions */
 
 /* Tasks */
-# define OsTask_BSW (0U)
+# define OsTask_APP (0U)
+# define OsTask_BSW (1U)
 
 /* Alarms */
-# define Rte_Al_TE2_OsTask_BSW_0_10ms (0U)
+# define Rte_Al_TE_CpLedTask_LedRunnable (0U)
+# define Rte_Al_TE2_OsTask_BSW_0_10ms (1U)
 
 /* Events */
+# define Rte_Ev_Run_CpLedTask_LedRunnable (0x01)
 
 /* Spinlocks */
 

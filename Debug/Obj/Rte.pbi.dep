@@ -34,6 +34,9 @@ Rte.pbi: E:\S32K144\DAV_Project\Appl\GenData\Rte.c \
   E:\S32K144\DAV_Project\Appl\GenData\Rte_Type.h \
   E:\S32K144\DAV_Project\Appl\GenData\Rte_DataHandleType.h \
   E:\S32K144\DAV_Project\Appl\GenData\Components/BswM_MemMap.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Components\Rte_CtLedTask.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Components/Rte_CtLedTask_Type.h \
+  E:\S32K144\DAV_Project\Appl\GenData\Components/CtLedTask_MemMap.h \
   E:\S32K144\DAV_Project\Appl\GenData\Components\Rte_Det.h \
   E:\S32K144\DAV_Project\Appl\GenData\Components/Rte_Det_Type.h \
   E:\S32K144\DAV_Project\Appl\GenData\Components/Det_MemMap.h \

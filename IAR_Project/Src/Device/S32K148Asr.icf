@@ -183,16 +183,10 @@ define section OS_STACKS_CORE0_NOINIT_LIMIT_SEC
 define block OS_STACKS_CORE0_NOINIT with fixed order, alignment = 4
 {
    section OS_STACKS_CORE0_NOINIT_START_SEC,
-/* Stack: Default_Appl_Task (2048 Byte) */
-block OS_STACK_DEFAULT_APPL_TASK_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_DEFAULT_APPL_TASK_VAR_NOINIT },
-
-/* Stack: Default_BSW_Async_Task (4096 Byte) */
-block OS_STACK_DEFAULT_BSW_ASYNC_TASK_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_DEFAULT_BSW_ASYNC_TASK_VAR_NOINIT },
-
 /* Stack: OsCore0_Error (1024 Byte) */
 block OS_STACK_OSCORE0_ERROR_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_ERROR_VAR_NOINIT },
 
-/* Stack: OsCore0_Init (2048 Byte) */
+/* Stack: OsCore0_Init (1024 Byte) */
 block OS_STACK_OSCORE0_INIT_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_INIT_VAR_NOINIT },
 
 /* Stack: OsCore0_Isr_Core (1024 Byte) */
@@ -201,31 +195,12 @@ block OS_STACK_OSCORE0_ISR_CORE_VAR_NOINIT_BLOCK with alignment = 32 { section .
 /* Stack: OsCore0_Kernel (1024 Byte) */
 block OS_STACK_OSCORE0_KERNEL_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_KERNEL_VAR_NOINIT },
 
-/* Stack: OsCore0_Protection (1024 Byte) */
-block OS_STACK_OSCORE0_PROTECTION_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_PROTECTION_VAR_NOINIT },
-
-/* Stack: OsCore0_Task_Prio10 (1024 Byte) */
-block OS_STACK_OSCORE0_TASK_PRIO10_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO10_VAR_NOINIT },
-
-/* Stack: OsCore0_Task_Prio30 (1024 Byte) */
-block OS_STACK_OSCORE0_TASK_PRIO30_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO30_VAR_NOINIT },
-
-/* Stack: OsCore0_Task_Prio40 (1024 Byte) */
-block OS_STACK_OSCORE0_TASK_PRIO40_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO40_VAR_NOINIT },
+/* Stack: OsCore0_Task_Prio0 (2048 Byte) */
+block OS_STACK_OSCORE0_TASK_PRIO0_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO0_VAR_NOINIT },
 
 /* Stack: OsCore0_Task_Prio4294967295 (1024 Byte) */
 block OS_STACK_OSCORE0_TASK_PRIO4294967295_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO4294967295_VAR_NOINIT },
 
-/* Stack: OsCore0_Task_Prio45 (1024 Byte) */
-block OS_STACK_OSCORE0_TASK_PRIO45_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO45_VAR_NOINIT },
-
-/* Stack: OsCore0_Task_Prio5 (1024 Byte) */
-block OS_STACK_OSCORE0_TASK_PRIO5_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO5_VAR_NOINIT },
-
-/* Stack: OsCore0_Task_Prio50 (2048 Byte) */
-block OS_STACK_OSCORE0_TASK_PRIO50_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO50_VAR_NOINIT },
-/* Stack: OsCore0_Task_Prio0 (2048 Byte) */
-block OS_STACK_OSCORE0_TASK_PRIO0_VAR_NOINIT_BLOCK with alignment = 32 { section .OS_STACK_OSCORE0_TASK_PRIO0_VAR_NOINIT },
 
    section OS_STACKS_CORE0_NOINIT_LIMIT_SEC
 };

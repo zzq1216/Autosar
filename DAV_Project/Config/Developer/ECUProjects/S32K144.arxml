@@ -7,6 +7,19 @@
       <ELEMENTS>
         <COMPOSITION-SW-COMPONENT-TYPE UUID="602FD36D-D82D-45D8-B8C9-8260CE8C1BEF">
           <SHORT-NAME>ECU_Composition</SHORT-NAME>
+          <COMPONENTS>
+            <SW-COMPONENT-PROTOTYPE UUID="C71E3C05-4EFF-4603-8D84-DC43FD568DF7">
+              <SHORT-NAME>CpLedTask</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ComponentTypes/CtLedTask</TYPE-TREF>
+            </SW-COMPONENT-PROTOTYPE>
+          </COMPONENTS>
         </COMPOSITION-SW-COMPONENT-TYPE>
       </ELEMENTS>
     </AR-PACKAGE>

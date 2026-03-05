@@ -252,6 +252,19 @@
  *********************************************************************************************************************/
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: RTE_START_SEC_CTLEDTASK_APPL_CODE
+ *********************************************************************************************************************/
+
+#ifdef RTE_START_SEC_CTLEDTASK_APPL_CODE
+# undef RTE_START_SEC_CTLEDTASK_APPL_CODE /* PRQA S 0841 */ /* MD_MSR_19.6 */
+# define START_SEC_CODE
+#endif
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
  * Symbol: RTE_START_SEC_DET_APPL_CODE
  *********************************************************************************************************************/
 
@@ -306,6 +319,19 @@
  *********************************************************************************************************************/
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: RTE_STOP_SEC_CTLEDTASK_APPL_CODE
+ *********************************************************************************************************************/
+
+#ifdef RTE_STOP_SEC_CTLEDTASK_APPL_CODE
+# undef RTE_STOP_SEC_CTLEDTASK_APPL_CODE /* PRQA S 0841 */ /* MD_MSR_19.6 */
+# define STOP_SEC_CODE
+#endif
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
  * Symbol: RTE_STOP_SEC_DET_APPL_CODE
  *********************************************************************************************************************/
 
@@ -348,6 +374,29 @@
  * DO NOT CHANGE THIS COMMENT!           << Start of removed code area >>                   DO NOT CHANGE THIS COMMENT!
  *********************************************************************************************************************/
 
+
+
+#if 0
+/***  Start of saved code (symbol: memory mapping implementation:RTE_STOP_SEC_CP__APPL_CODE)  ***************/
+
+#ifdef RTE_STOP_SEC_CP__APPL_CODE
+# undef RTE_STOP_SEC_CP__APPL_CODE /* PRQA S 0841 */ /* MD_MSR_19.6 */
+# define STOP_SEC_CODE
+#endif
+
+/***  End of saved code  ************************************************************************************/
+#endif
+
+#if 0
+/***  Start of saved code (symbol: memory mapping implementation:RTE_START_SEC_CP__APPL_CODE)  **************/
+
+#ifdef RTE_START_SEC_CP__APPL_CODE
+# undef RTE_START_SEC_CP__APPL_CODE /* PRQA S 0841 */ /* MD_MSR_19.6 */
+# define START_SEC_CODE
+#endif
+
+/***  End of saved code  ************************************************************************************/
+#endif
 
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << End of removed code area >>                     DO NOT CHANGE THIS COMMENT!

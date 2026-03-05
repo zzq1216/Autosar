@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Application_Cfg.h
- *   Generation Time: 2026-03-03 13:14:00
+ *   Generation Time: 2026-03-05 12:35:40
  *           Project: S32K144 - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -45,13 +45,13 @@
  *********************************************************************************************************************/
 
 /* Number of application objects: SystemApplication_OsCore0 */
-# define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_ALARMS             (1uL)
+# define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_ALARMS             (2uL)
 # define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_COUNTERS           (1uL)
 # define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_HOOKS              (0uL)
 # define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_ISRS               (1uL)
 # define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_CAT1ISRS           (0uL)
 # define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_SCHTS              (0uL)
-# define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_TASKS              (3uL)
+# define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_TASKS              (4uL)
 # define OS_CFG_NUM_APP_SYSTEMAPPLICATION_OSCORE0_SERVICES           (0uL)
 
 

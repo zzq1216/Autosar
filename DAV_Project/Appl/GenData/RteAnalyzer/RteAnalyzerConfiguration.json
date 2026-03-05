@@ -564,6 +564,26 @@
             "Source",
             "..",
             "../Components",
+            "../Components/CtLedTask"
+         ],
+         "SourceFile" : "Source/CtLedTask.c"
+      },
+      {
+         "IncludeDirectoryList" : [
+            "E:/BaiduNetdiskDownload/share_20230823/AUTOSAR_TOOLs/S32K144_SIP/MICROSAR/CBD1800257_D01_S32K1xx/Misc/RteAnalyzer/include",
+            "Source",
+            "..",
+            "../Components",
+            "../Components/TSC_CtLedTask"
+         ],
+         "SourceFile" : "Source/TSC_CtLedTask.c"
+      },
+      {
+         "IncludeDirectoryList" : [
+            "E:/BaiduNetdiskDownload/share_20230823/AUTOSAR_TOOLs/S32K144_SIP/MICROSAR/CBD1800257_D01_S32K1xx/Misc/RteAnalyzer/include",
+            "Source",
+            "..",
+            "../Components",
             "../Components/TSC_Det"
          ],
          "SourceFile" : "Source/TSC_Det.c"
@@ -605,6 +625,12 @@
          "Preemptive" : "1",
          "Priority" : "4294967295",
          "TaskName" : "IdleTask_OsCore0"
+      },
+      {
+         "OsApplication" : "",
+         "Preemptive" : "1",
+         "Priority" : "15",
+         "TaskName" : "OsTask_APP"
       },
       {
          "OsApplication" : "",

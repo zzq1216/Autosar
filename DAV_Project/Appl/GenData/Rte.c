@@ -31,6 +31,7 @@
 #include "Rte_Main.h"
 
 #include "Rte_BswM.h"
+#include "Rte_CtLedTask.h"
 #include "Rte_Det.h"
 #include "Rte_EcuM.h"
 #include "Rte_Os_OsCore0_swc.h"
@@ -157,6 +158,7 @@ VAR(BswM_ESH_Mode, RTE_VAR_NOINIT) Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_Bs
 
 #define RTE_CONST_MSEC_SystemTimer_0 (0UL)
 #define RTE_CONST_MSEC_SystemTimer_10 (10UL)
+#define RTE_CONST_MSEC_SystemTimer_300 (300UL)
 
 
 /**********************************************************************************************************************
@@ -201,6 +203,12 @@ FUNC(Std_ReturnType, RTE_CODE) Rte_Start(void) /* PRQA S 0850 */ /* MD_MSR_19.8 
 
   Rte_ModeMachine_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode = RTE_MODE_BswM_ESH_Mode_STARTUP;
 
+  /* activate the tasks */
+  (void)ActivateTask(OsTask_APP); /* PRQA S 3417 */ /* MD_Rte_Os */
+
+  /* activate the alarms used for TimingEvents */
+  (void)SetRelAlarm(Rte_Al_TE_CpLedTask_LedRunnable, RTE_MSEC_SystemTimer(0) + (TickType)1, RTE_MSEC_SystemTimer(300)); /* PRQA S 3417 */ /* MD_Rte_Os */
+
   Rte_InitState = RTE_STATE_INIT;
 
   return RTE_E_OK;
@@ -208,6 +216,9 @@ FUNC(Std_ReturnType, RTE_CODE) Rte_Start(void) /* PRQA S 0850 */ /* MD_MSR_19.8 
 
 FUNC(Std_ReturnType, RTE_CODE) Rte_Stop(void) /* PRQA S 0850 */ /* MD_MSR_19.8 */
 {
+  /* deactivate alarms */
+  (void)CancelAlarm(Rte_Al_TE_CpLedTask_LedRunnable); /* PRQA S 3417 */ /* MD_Rte_Os */
+
   Rte_InitState = RTE_STATE_SCHM_INIT;
 
   return RTE_E_OK;
@@ -1118,6 +1129,33 @@ FUNC(BswM_ESH_Mode, RTE_CODE) Rte_Mode_BswM_Notification_ESH_ModeNotification_Bs
 /**********************************************************************************************************************
  * Task bodies for RTE controlled tasks
  *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * Task:     OsTask_APP
+ * Priority: 15
+ * Schedule: FULL
+ *********************************************************************************************************************/
+TASK(OsTask_APP) /* PRQA S 3408, 1503 */ /* MD_Rte_3408, MD_MSR_14.1 */
+{
+  EventMaskType ev;
+
+
+  /* call runnable */
+  CtLedTask_InitRunnable();
+
+  for(;;)
+  {
+    (void)WaitEvent(Rte_Ev_Run_CpLedTask_LedRunnable); /* PRQA S 3417 */ /* MD_Rte_Os */
+    (void)GetEvent(OsTask_APP, &ev); /* PRQA S 3417 */ /* MD_Rte_Os */
+    (void)ClearEvent(ev & (Rte_Ev_Run_CpLedTask_LedRunnable)); /* PRQA S 3417 */ /* MD_Rte_Os */
+
+    if ((ev & Rte_Ev_Run_CpLedTask_LedRunnable) != (EventMaskType)0)
+    {
+      /* call runnable */
+      LedRunnable();
+    }
+  }
+} /* PRQA S 6010, 6030, 6050, 6080 */ /* MD_MSR_STPTH, MD_MSR_STCYC, MD_MSR_STCAL, MD_MSR_STMIF */
 
 /**********************************************************************************************************************
  * Task:     OsTask_BSW

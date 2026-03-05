@@ -36,6 +36,10 @@
  *  Rte_ReadHook_BswM_Request_ESH_RunRequest_1_requestedMode_Start
  *  Rte_Runnable_BswM_BswM_MainFunction_Return
  *  Rte_Runnable_BswM_BswM_MainFunction_Start
+ *  Rte_Runnable_CtLedTask_CtLedTask_InitRunnable_Return
+ *  Rte_Runnable_CtLedTask_CtLedTask_InitRunnable_Start
+ *  Rte_Runnable_CtLedTask_LedRunnable_Return
+ *  Rte_Runnable_CtLedTask_LedRunnable_Start
  *  Rte_Runnable_Det_ReportError_Return
  *  Rte_Runnable_Det_ReportError_Start
  *  Rte_Runnable_Det_ReportRuntimeError_Return
@@ -62,7 +66,10 @@
  *  Rte_Runnable_Os_OsCore0_swc_GetElapsedValue_Start
  *  Rte_SwitchHook_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode_Return
  *  Rte_SwitchHook_BswM_Switch_ESH_ModeSwitch_BswM_MDGP_ESH_Mode_Start
+ *  Rte_Task_Activate
  *  Rte_Task_Dispatch
+ *  Rte_Task_WaitEvent
+ *  Rte_Task_WaitEventRet
  *  SchM_EnterHook_BswM_BSWM_EXCLUSIVE_AREA_0_Return
  *  SchM_EnterHook_BswM_BSWM_EXCLUSIVE_AREA_0_Start
  *  SchM_EnterHook_Det_DET_EXCLUSIVE_AREA_0_Return

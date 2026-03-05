@@ -93,10 +93,17 @@ define block OS_EXCVEC_CORE0_CODE with fixed order
 {
    //block OS_EXCVEC_CORE0_CODE
    
-
+   define block OS_EXCVEC_CORE0_CODE with fixed order
+  {
+   section OS_EXCVEC_CORE0_CODE_START_SEC,
+   block OS_EXCVEC_CORE0_CODE_BLOCK with alignment = 8 { section .OS_EXCVEC_CORE0_CODE },
+   section OS_EXCVEC_CORE0_CODE_LIMIT_SEC
+  };
+};
 
 /* OS_EXCVEC_CORE0_CONST */
-
+keep { section OS_EXCVEC_CORE0_CONST_START_SEC };
+keep { section OS_EXCVEC_CORE0_CONST_LIMIT_SEC };
 define section OS_EXCVEC_CORE0_CONST_START_SEC
 {
    public _OS_EXCVEC_CORE0_CONST_START:

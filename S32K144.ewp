@@ -352,6 +352,7 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
+                    <state>$PROJ_DIR$\DAV_Project\Appl\GenData</state>
                     <state>$PROJ_DIR$\IAR_Project\BSW\_Common</state>
                     <state>$PROJ_DIR$\IAR_Project\BSW\BswM</state>
                     <state>$PROJ_DIR$\IAR_Project\BSW\Can</state>
@@ -417,6 +418,8 @@
                     <state>$PROJ_DIR$\DAV_Project\Appl\shared\zBrs_ArmCommon</state>
                     <state>$PROJ_DIR$\DAV_Project\Appl\shared\zBrs_AsrEmbeddedRunTimeSystemCfg5</state>
                     <state>$PROJ_DIR$\DAV_Project\Appl\shared\zBrs_S32Arm</state>
+                    <state>$PROJ_DIR$\DAV_Project\Appl\Source</state>
+                    <state>$PROJ_DIR$\DAV_Project\Appl\GenData\include</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -684,6 +687,7 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
+                    <state>$PROJ_DIR$\DAV_Project\Appl\GenData</state>
                     <state>$PROJ_DIR$\IAR_Project\BSW\_Common</state>
                     <state>$PROJ_DIR$\IAR_Project\BSW\BswM</state>
                     <state>$PROJ_DIR$\IAR_Project\BSW\Can</state>
@@ -749,6 +753,8 @@
                     <state>$PROJ_DIR$\DAV_Project\Appl\shared\zBrs_ArmCommon</state>
                     <state>$PROJ_DIR$\DAV_Project\Appl\shared\zBrs_AsrEmbeddedRunTimeSystemCfg5</state>
                     <state>$PROJ_DIR$\DAV_Project\Appl\shared\zBrs_S32Arm</state>
+                    <state>$PROJ_DIR$\DAV_Project\Appl\Source</state>
+                    <state>$PROJ_DIR$\DAV_Project\Appl\GenData\include</state>
                 </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
@@ -901,7 +907,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>E:\S32K144_Start_new_IAR\Appl\S32K148Asr.icf</state>
+                    <state>E:\S32K144\S32K148Asr.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -2409,10 +2415,31 @@
                 <name>$PROJ_DIR$\DAV_Project\Appl\Source\BswM_Callout_Stubs.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\Source\CtLedTask.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\DAV_Project\Appl\Source\EcuM_Callout_Stubs.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\DAV_Project\Appl\Source\Os_Callout_Stubs.c</name>
+            </file>
+        </group>
+        <group>
+            <name>SRC</name>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Dio_Cfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_Cfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_PBcfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_Cfg.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_PBcfg.c</name>
             </file>
         </group>
         <file>
@@ -2425,9 +2452,6 @@
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Det_Cfg.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Dio_Cfg.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\EcuM_Cfg.c</name>
         </file>
         <file>
@@ -2438,12 +2462,6 @@
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\EcuM_PBcfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_Cfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Mcu_PBcfg.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Os_AccessCheck_Lcfg.c</name>
@@ -2534,12 +2552,6 @@
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Os_XSignal_Lcfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_Cfg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\DAV_Project\Appl\GenData\src\Port_PBcfg.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\DAV_Project\Appl\GenData\Rte.c</name>

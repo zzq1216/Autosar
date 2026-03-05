@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Scheduler_Lcfg.c
- *   Generation Time: 2026-03-03 16:27:15
+ *   Generation Time: 2026-03-04 18:36:41
  *           Project: S32K144 - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -84,6 +84,9 @@ OS_LOCAL VAR(Os_DequeNodeType, OS_VAR_NOINIT)
 OS_LOCAL VAR(Os_DequeType, OS_VAR_NOINIT) OsCfg_TaskQueue1_OsCore0_Dyn;
 OS_LOCAL VAR(Os_DequeNodeType, OS_VAR_NOINIT)
   OsCfg_TaskQueueNodes1_OsCore0_Dyn[OS_CFG_NUM_TASKQUEUE1_OSCORE0_SLOTS];
+OS_LOCAL VAR(Os_DequeType, OS_VAR_NOINIT) OsCfg_TaskQueue2_OsCore0_Dyn;
+OS_LOCAL VAR(Os_DequeNodeType, OS_VAR_NOINIT)
+  OsCfg_TaskQueueNodes2_OsCore0_Dyn[OS_CFG_NUM_TASKQUEUE2_OSCORE0_SLOTS];
 
 #define OS_STOP_SEC_CORE0_VAR_NOINIT_UNSPECIFIED
 #include "Os_MemMap_OsSections.h" /* PRQA S 5087 */ /* MD_MSR_19.1 */
@@ -114,6 +117,12 @@ OS_LOCAL CONST(Os_DequeConfigType, OS_CONST) OsCfg_Scheduler_OsCore0_TaskQueues[
     /* .Dyn    = */ &OsCfg_TaskQueue1_OsCore0_Dyn,
     /* .Buffer = */ OsCfg_TaskQueueNodes1_OsCore0_Dyn,
     /* .Size   = */ OS_CFG_NUM_TASKQUEUE1_OSCORE0_SLOTS
+  },
+  /* [2] = */
+  {
+    /* .Dyn    = */ &OsCfg_TaskQueue2_OsCore0_Dyn,
+    /* .Buffer = */ OsCfg_TaskQueueNodes2_OsCore0_Dyn,
+    /* .Size   = */ OS_CFG_NUM_TASKQUEUE2_OSCORE0_SLOTS
   }
 };
 

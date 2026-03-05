@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Core_Cfg.h
- *   Generation Time: 2026-03-03 16:27:15
+ *   Generation Time: 2026-03-04 18:36:41
  *           Project: S32K144 - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -67,7 +67,7 @@
 # define OS_CFG_NUM_CORE_OSCORE0_HOOKS            (2uL)
 # define OS_CFG_NUM_CORE_OSCORE0_IOCS             (0uL)
 # define OS_CFG_NUM_CORE_OSCORE0_RESOURCES        (1uL)
-# define OS_CFG_NUM_CORE_OSCORE0_STACKS           (6uL)
+# define OS_CFG_NUM_CORE_OSCORE0_STACKS           (7uL)
 
 
 /**********************************************************************************************************************

@@ -21,7 +21,7 @@
  *  FILE DESCRIPTION
  *  -------------------------------------------------------------------------------------------------------------------
  *              File: Os_Types_Lcfg.h
- *   Generation Time: 2026-03-03 13:14:00
+ *   Generation Time: 2026-03-05 12:35:40
  *           Project: S32K144 - Version 1.0
  *          Delivery: CBD1800257_D01
  *      Tool Version: DaVinci Configurator  5.18.37 SP1
@@ -60,6 +60,7 @@
 
 /* Task identifiers. */
 #define IdleTask_OsCore0 IdleTask_OsCore0
+#define OsTask_APP OsTask_APP
 #define OsTask_BSW OsTask_BSW
 #define OsTask_Startup OsTask_Startup
 
@@ -68,6 +69,7 @@
 
 /* Alarm identifiers. */
 #define Rte_Al_TE2_OsTask_BSW_0_10ms Rte_Al_TE2_OsTask_BSW_0_10ms
+#define Rte_Al_TE_CpLedTask_LedRunnable Rte_Al_TE_CpLedTask_LedRunnable
 
 /* Counter identifiers. */
 #define SystemTimer SystemTimer
@@ -125,9 +127,10 @@ typedef enum
 typedef enum
 {
   IdleTask_OsCore0 = 0,
-  OsTask_BSW = 1,
-  OsTask_Startup = 2,
-  OS_TASKID_COUNT = 3,
+  OsTask_APP = 1,
+  OsTask_BSW = 2,
+  OsTask_Startup = 3,
+  OS_TASKID_COUNT = 4,
   INVALID_TASK = OS_TASKID_COUNT
 } TaskType;
 
@@ -143,7 +146,8 @@ typedef enum
 typedef enum
 {
   Rte_Al_TE2_OsTask_BSW_0_10ms = 0,
-  OS_ALARMID_COUNT = 1
+  Rte_Al_TE_CpLedTask_LedRunnable = 1,
+  OS_ALARMID_COUNT = 2
 } AlarmType;
 
 /*! Counter identifiers. */
