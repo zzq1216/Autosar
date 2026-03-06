@@ -112,7 +112,9 @@ LedState_A ^= 0x01;
 Dio_WriteChannel(112,LedState);
  
 Dio_WriteChannel(111,LedState_A);
-
+Dio_WriteChannel(96,LedState);
+ 
+Dio_WriteChannel(97,LedState_A);
 /**********************************************************************************************************************
  * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
  *********************************************************************************************************************/

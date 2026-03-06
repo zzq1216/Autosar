@@ -12,7 +12,7 @@
           <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-POST-BUILD</IMPLEMENTATION-CONFIG-VARIANT>
           <MODULE-DESCRIPTION-REF DEST="BSW-IMPLEMENTATION">/TS_T40D2M10I1R0/Mcu_Impl</MODULE-DESCRIPTION-REF>
           <CONTAINERS>
-            <ECUC-CONTAINER-VALUE UUID="735f480f-1881-49ad-a9fd-a7affaf73e2d">
+            <ECUC-CONTAINER-VALUE UUID="f3daccc4-8afa-4760-8fa9-1e5a5add74b8">
               <SHORT-NAME>CommonPublishedInformation</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/CommonPublishedInformation</DEFINITION-REF>
               <PARAMETER-VALUES>
@@ -54,7 +54,7 @@
                 </ECUC-NUMERICAL-PARAM-VALUE>
               </PARAMETER-VALUES>
             </ECUC-CONTAINER-VALUE>
-            <ECUC-CONTAINER-VALUE UUID="a9917691-a747-4fcd-8775-3c78f307d3da">
+            <ECUC-CONTAINER-VALUE UUID="77e0d1b8-d85e-48f2-ba35-5d3b207c2865">
               <SHORT-NAME>McuDebugConfiguration</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuDebugConfiguration</DEFINITION-REF>
               <PARAMETER-VALUES>
@@ -80,7 +80,7 @@
                 </ECUC-NUMERICAL-PARAM-VALUE>
               </PARAMETER-VALUES>
             </ECUC-CONTAINER-VALUE>
-            <ECUC-CONTAINER-VALUE UUID="2f6a20e2-130f-483f-8d4d-d5f71a885ffb">
+            <ECUC-CONTAINER-VALUE UUID="7023f09e-0495-453f-9d69-5f3d644c5085">
               <SHORT-NAME>McuGeneralConfiguration</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuGeneralConfiguration</DEFINITION-REF>
               <PARAMETER-VALUES>
@@ -130,7 +130,7 @@
                 </ECUC-NUMERICAL-PARAM-VALUE>
               </PARAMETER-VALUES>
             </ECUC-CONTAINER-VALUE>
-            <ECUC-CONTAINER-VALUE UUID="9a452305-fe35-4f75-a165-e891a2a05e3c">
+            <ECUC-CONTAINER-VALUE UUID="6741883b-617c-4c39-a6bf-429efdbc4f3f">
               <SHORT-NAME>McuModuleConfiguration</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration</DEFINITION-REF>
               <PARAMETER-VALUES>
@@ -168,7 +168,7 @@
                 </ECUC-TEXTUAL-PARAM-VALUE>
               </PARAMETER-VALUES>
               <SUB-CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="79664344-3ae8-4969-aa2d-a6f60f87fb24">
+                <ECUC-CONTAINER-VALUE UUID="91cbc745-734d-4f47-b03c-dbba89231363">
                   <SHORT-NAME>McuAllowedModes</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuAllowedModes</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -182,7 +182,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="0da6089c-0842-4843-af14-2c3420ef9d85">
+                <ECUC-CONTAINER-VALUE UUID="6c07f4d5-5ea0-490d-8607-29c24e92a881">
                   <SHORT-NAME>McuClockSettingConfig_0</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -200,7 +200,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="9e70e1a8-0324-458a-983f-6870414ff4c7">
+                    <ECUC-CONTAINER-VALUE UUID="86a16fd2-55ba-487c-bc72-40848bb55448">
                       <SHORT-NAME>McuClkMonitor_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuClkMonitor_0</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -230,7 +230,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="fede6e32-7472-452c-86db-7f720dc876e6">
+                    <ECUC-CONTAINER-VALUE UUID="cd5e3db3-497c-461d-9ecd-439ecbb96ae9">
                       <SHORT-NAME>McuClkMonitor_1</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuClkMonitor_1</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -260,7 +260,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="738b939f-e22d-4ea7-ad54-dd24f26cf082">
+                    <ECUC-CONTAINER-VALUE UUID="df69c987-c5c6-4ec2-9d55-1c500eafcf7a">
                       <SHORT-NAME>McuClockReferencePoint_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuClockReferencePoint</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -274,7 +274,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="43a611c9-44e5-404b-8ca8-cdb7d9280270">
+                    <ECUC-CONTAINER-VALUE UUID="9756aed0-8e01-483a-a346-28c0c980d0d4">
                       <SHORT-NAME>McuFIRCClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuFIRCClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -316,7 +316,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="10c8b9fb-0ee2-4435-a0ca-66de76334443">
+                    <ECUC-CONTAINER-VALUE UUID="872ed530-cc07-42ca-b666-b845a44992fa">
                       <SHORT-NAME>McuHsrunClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuHsrunClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -362,7 +362,7 @@
                         </ECUC-TEXTUAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="6e50a92b-7c4e-4a65-a47d-759b35e6797a">
+                    <ECUC-CONTAINER-VALUE UUID="c9201b14-8ec7-4971-8a2b-05b823cc1332">
                       <SHORT-NAME>McuPeripheralClockConfig_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -392,7 +392,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="1d1e84f7-68cc-4999-953a-2c43681b0bd0">
+                    <ECUC-CONTAINER-VALUE UUID="935a02ba-d3f8-4e4d-9372-3cc83c7b6161">
                       <SHORT-NAME>McuPeripheralClockConfig_1</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -422,7 +422,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="2f972042-b022-4805-8f8b-a48914b15cc5">
+                    <ECUC-CONTAINER-VALUE UUID="3a481a06-c90d-4c72-8cd9-29ce6e0ab9e1">
                       <SHORT-NAME>McuPeripheralClockConfig_10</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -452,7 +452,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="043dd203-673e-447d-8dc3-3714f2d7a260">
+                    <ECUC-CONTAINER-VALUE UUID="811490d8-2bd8-4391-a514-16c095e2faf3">
                       <SHORT-NAME>McuPeripheralClockConfig_11</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -482,7 +482,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="20053ad1-282b-45e2-a4ce-34ec88802637">
+                    <ECUC-CONTAINER-VALUE UUID="e8e23d47-bd48-430e-b03d-ca95815740a1">
                       <SHORT-NAME>McuPeripheralClockConfig_12</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -512,7 +512,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="e1e74f29-51b0-4fe3-a136-8db7ade7927e">
+                    <ECUC-CONTAINER-VALUE UUID="f73891dd-aaf1-4f01-a25b-6b5473387a5c">
                       <SHORT-NAME>McuPeripheralClockConfig_13</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -542,7 +542,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="58619f0d-e100-44ff-bea9-744830498930">
+                    <ECUC-CONTAINER-VALUE UUID="75b07fea-65d4-4345-b1a5-077d3185e26f">
                       <SHORT-NAME>McuPeripheralClockConfig_14</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -572,7 +572,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="90f6c9c4-f2c3-4189-ae75-fbcf52f93010">
+                    <ECUC-CONTAINER-VALUE UUID="cb0b9314-fea7-42db-8b99-5d0b8b240a8c">
                       <SHORT-NAME>McuPeripheralClockConfig_15</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -602,7 +602,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="a29638f1-4cfe-4ca6-b19c-cb936a3b74c8">
+                    <ECUC-CONTAINER-VALUE UUID="6127b790-dbe1-41d9-9d16-5662cd006a4f">
                       <SHORT-NAME>McuPeripheralClockConfig_16</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -632,7 +632,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="0f4fbf35-7074-4026-bb42-ea32f0b1b4a7">
+                    <ECUC-CONTAINER-VALUE UUID="770b4711-3ff8-493a-837b-df32372674ee">
                       <SHORT-NAME>McuPeripheralClockConfig_17</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -662,7 +662,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="edd04697-b1bb-4467-b436-2649d1617a79">
+                    <ECUC-CONTAINER-VALUE UUID="419f0e48-6161-4ec1-afec-5a881e62941b">
                       <SHORT-NAME>McuPeripheralClockConfig_18</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -692,7 +692,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="720f8f67-7a5c-4b57-9d78-b4e4b8cf5a9d">
+                    <ECUC-CONTAINER-VALUE UUID="71edaae8-542a-435c-a05a-f3eea0f82ab5">
                       <SHORT-NAME>McuPeripheralClockConfig_19</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -722,7 +722,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="858b764e-808d-4b6f-8929-71946585e736">
+                    <ECUC-CONTAINER-VALUE UUID="567d6a84-76a2-477a-8ee6-2924aee8e368">
                       <SHORT-NAME>McuPeripheralClockConfig_2</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -752,7 +752,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="b4ab4b1d-61ab-4d5b-b274-2cb9562ce817">
+                    <ECUC-CONTAINER-VALUE UUID="a85ed4aa-161e-4e3a-860b-e0bab0646c96">
                       <SHORT-NAME>McuPeripheralClockConfig_20</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -782,7 +782,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="16f89e05-3a8a-4785-ab78-64873f0880fc">
+                    <ECUC-CONTAINER-VALUE UUID="91481b16-e5bf-4837-924c-51c24fd75e3e">
                       <SHORT-NAME>McuPeripheralClockConfig_21</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -812,7 +812,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="22ce4ecd-b241-49ed-9cf5-44b2c3f0710a">
+                    <ECUC-CONTAINER-VALUE UUID="e04b4561-fbd8-4247-a62d-8490863fed7b">
                       <SHORT-NAME>McuPeripheralClockConfig_22</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -842,7 +842,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="480881a0-1994-46cf-bf37-07d926dd6352">
+                    <ECUC-CONTAINER-VALUE UUID="d929196a-5009-4a48-9c19-73ac7bd772e0">
                       <SHORT-NAME>McuPeripheralClockConfig_23</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -872,7 +872,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="80a9611a-acb0-4f6e-84ee-133eda67eb24">
+                    <ECUC-CONTAINER-VALUE UUID="546bc909-0fac-49f3-bd19-6819a12f5f55">
                       <SHORT-NAME>McuPeripheralClockConfig_24</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -902,7 +902,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="bd87740c-c56b-4023-89ee-293e1de0d2e2">
+                    <ECUC-CONTAINER-VALUE UUID="01e7d35d-7928-41d3-8c25-7bb052f8c117">
                       <SHORT-NAME>McuPeripheralClockConfig_25</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -932,7 +932,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="0d2cbb1d-3c8f-451e-ac5b-d307028f7d82">
+                    <ECUC-CONTAINER-VALUE UUID="f08df82d-0d68-409c-8e11-a766c4c88bab">
                       <SHORT-NAME>McuPeripheralClockConfig_26</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -962,7 +962,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="109cc9df-bf74-4061-9599-75e7502aae6e">
+                    <ECUC-CONTAINER-VALUE UUID="d540b628-5410-43a3-98b5-7ff47ccf408c">
                       <SHORT-NAME>McuPeripheralClockConfig_27</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -992,7 +992,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="6098e779-417a-4066-bd87-8cfa470fafc7">
+                    <ECUC-CONTAINER-VALUE UUID="28a424cc-0db8-48a8-95a6-b98e690c0425">
                       <SHORT-NAME>McuPeripheralClockConfig_28</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1022,7 +1022,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="d18f0feb-1eec-4d3e-807a-f212533229d3">
+                    <ECUC-CONTAINER-VALUE UUID="eda12856-52a5-469d-add0-7c2b8214ef57">
                       <SHORT-NAME>McuPeripheralClockConfig_29</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1052,7 +1052,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="143eb765-1f1d-4344-92ed-e76f8059c75a">
+                    <ECUC-CONTAINER-VALUE UUID="38145c0d-0b82-4734-add9-96089a568cf1">
                       <SHORT-NAME>McuPeripheralClockConfig_3</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1082,7 +1082,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="bd96fc80-979c-43a7-a82b-812215eb2c8b">
+                    <ECUC-CONTAINER-VALUE UUID="7061c4b2-c4cf-4692-ac99-a5c9045f5803">
                       <SHORT-NAME>McuPeripheralClockConfig_30</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1112,7 +1112,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="18efee81-4f1f-4cdb-8712-2c15c19faa67">
+                    <ECUC-CONTAINER-VALUE UUID="658c9073-f96a-4775-b41a-d13b2610f212">
                       <SHORT-NAME>McuPeripheralClockConfig_31</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1142,7 +1142,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="10917ffd-edae-4185-acde-0b0c9931c6c4">
+                    <ECUC-CONTAINER-VALUE UUID="1e659fc1-0cc0-4ce7-a6e1-420934878265">
                       <SHORT-NAME>McuPeripheralClockConfig_4</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1172,7 +1172,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ac83b031-4d3f-4af5-8c36-b2a00943b219">
+                    <ECUC-CONTAINER-VALUE UUID="49111d3a-045f-4276-be04-10cfdf9f5bf1">
                       <SHORT-NAME>McuPeripheralClockConfig_5</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1202,7 +1202,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="5af5267c-3ee8-4da3-9f35-1641a5b89698">
+                    <ECUC-CONTAINER-VALUE UUID="7c6bc882-8e45-4016-87aa-7fdfdc1c5393">
                       <SHORT-NAME>McuPeripheralClockConfig_6</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1232,7 +1232,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="9b30a960-73d3-43d1-8626-9ea43b32b6b8">
+                    <ECUC-CONTAINER-VALUE UUID="8d56c780-75bb-42f4-9202-31ae7607d1b6">
                       <SHORT-NAME>McuPeripheralClockConfig_7</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1262,7 +1262,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ecafdcc6-80e7-4c88-8c52-9d281915aebe">
+                    <ECUC-CONTAINER-VALUE UUID="aa6375ef-28b4-4d04-9723-c7f312cbfb34">
                       <SHORT-NAME>McuPeripheralClockConfig_8</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1292,7 +1292,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="9109e1eb-71bd-4fde-ad4d-b018d511cabe">
+                    <ECUC-CONTAINER-VALUE UUID="8dab0405-09e2-435d-867f-8fd39206a571">
                       <SHORT-NAME>McuPeripheralClockConfig_9</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1322,7 +1322,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="d9a8ec54-161d-485e-a134-67c5ec9e57e4">
+                    <ECUC-CONTAINER-VALUE UUID="f0285a91-5941-4736-9fa8-66454f713027">
                       <SHORT-NAME>McuRunClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuRunClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1368,7 +1368,7 @@
                         </ECUC-TEXTUAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="9afc3c6e-ee6b-4d83-a24d-2bde2cd4a5da">
+                    <ECUC-CONTAINER-VALUE UUID="27ccd009-3616-47f9-9058-3ec4eede1137">
                       <SHORT-NAME>McuSIMClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuSIMClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1426,7 +1426,7 @@
                         </ECUC-TEXTUAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="1d1b7771-fdc4-4d36-8549-f0ec15c90eff">
+                    <ECUC-CONTAINER-VALUE UUID="1f05540f-d9ff-49bd-a6dc-7959c184c03b">
                       <SHORT-NAME>McuSIRCClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuSIRCClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1472,7 +1472,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="767737f6-636c-4de1-99f0-471bfbb33dad">
+                    <ECUC-CONTAINER-VALUE UUID="94d83ceb-9271-4ba6-b7c9-a24a0cd5cc3d">
                       <SHORT-NAME>McuSystemOSCClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuSystemOSCClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1526,7 +1526,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="b146d642-d27e-4c5e-9c66-87990e3b1134">
+                    <ECUC-CONTAINER-VALUE UUID="40446f49-94b2-4a32-847b-088f7a8d3b44">
                       <SHORT-NAME>McuSystemPll</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuSystemPll</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1580,7 +1580,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="772443d7-4c13-4d80-a904-c0e217d1837f">
+                    <ECUC-CONTAINER-VALUE UUID="ba06865f-6fe0-45e6-acd1-888dbfb646e6">
                       <SHORT-NAME>McuVlprClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuVlprClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1628,7 +1628,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="982e41a1-7915-4b6c-93f2-da2c19cc53e5">
+                <ECUC-CONTAINER-VALUE UUID="8b899f49-db83-479b-a31d-83164107e718">
                   <SHORT-NAME>McuInterruptEvents</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuInterruptEvents</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1642,7 +1642,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="a4b6065e-ffd0-423d-8db5-45f43f4eb095">
+                <ECUC-CONTAINER-VALUE UUID="3b9092b7-b824-4d64-bc92-14a6b3103542">
                   <SHORT-NAME>McuModeSettingConf_0</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuModeSettingConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1656,7 +1656,7 @@
                     </ECUC-TEXTUAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="1ecfdfeb-93aa-48ee-a6b8-1ed34d6986b4">
+                <ECUC-CONTAINER-VALUE UUID="7b524a2d-8760-416a-996e-ac2a25e9734b">
                   <SHORT-NAME>McuPowerControl</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuPowerControl</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1690,7 +1690,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="7424f9c5-2563-476c-9229-ecdcf0609d9c">
+                <ECUC-CONTAINER-VALUE UUID="44b3bc84-509a-4eb1-87a3-a33b74fa4a84">
                   <SHORT-NAME>McuResetConfig</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuResetConfig</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1708,7 +1708,7 @@
                     </ECUC-TEXTUAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="bb14e8d9-ab76-4d36-8cb3-c9dd8d5a57de">
+                    <ECUC-CONTAINER-VALUE UUID="c99f09b6-87ed-4d90-8cf9-824fdc31a644">
                       <SHORT-NAME>McuSystemInterruptEnable</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuResetConfig/McuSystemInterruptEnable</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1764,11 +1764,11 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="581aa34e-27b8-41d4-823d-a106ae6927f6">
+                <ECUC-CONTAINER-VALUE UUID="23066f09-98ac-4de7-83f8-83a8887c630b">
                   <SHORT-NAME>McuSIMConfig</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuSIMConfig</DEFINITION-REF>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="d679638d-c52c-4fc5-a48d-fd3d68630630">
+                    <ECUC-CONTAINER-VALUE UUID="841e3be1-543a-4eb7-ab3c-ba8b7661b52e">
                       <SHORT-NAME>McuAdcOptionsConfiguration</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuSIMConfig/McuAdcOptionsConfiguration</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1802,7 +1802,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ac3165e3-b1b5-4088-8b2a-75a62190529a">
+                    <ECUC-CONTAINER-VALUE UUID="07ab8e53-02b6-45ce-be13-814804c7aad7">
                       <SHORT-NAME>McuChipControlConfiguration</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuSIMConfig/McuChipControlConfiguration</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1836,7 +1836,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="98f48aa7-8177-4fed-a4d9-2304c9260a1f">
+                    <ECUC-CONTAINER-VALUE UUID="7adc997f-0ffd-4d7a-a3e2-bfee010ad48c">
                       <SHORT-NAME>McuFlexTimerConfiguration</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuModuleConfiguration/McuSIMConfig/McuFlexTimerConfiguration</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2086,11 +2086,11 @@
                 </ECUC-CONTAINER-VALUE>
               </SUB-CONTAINERS>
             </ECUC-CONTAINER-VALUE>
-            <ECUC-CONTAINER-VALUE UUID="284b5277-c1f4-4c34-8a50-d5ce8d8de83b">
+            <ECUC-CONTAINER-VALUE UUID="a69b7807-8aba-4941-a940-ae55252b7189">
               <SHORT-NAME>McuPublishedInformation</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation</DEFINITION-REF>
               <SUB-CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="e4843116-7c1f-472c-a758-233dad2e8ff9">
+                <ECUC-CONTAINER-VALUE UUID="375fbd9d-1899-4485-a4ae-8b29f232a978">
                   <SHORT-NAME>MCU_CMU_LOC_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2100,7 +2100,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="e307bd40-969e-4e34-b2aa-5faaa2b3c85a">
+                <ECUC-CONTAINER-VALUE UUID="324a51ae-4424-4b6a-a5d4-802c77551d80">
                   <SHORT-NAME>MCU_CORE_LOCKUP_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2110,7 +2110,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="b3229013-eea8-4852-8c56-ee9d36a8ef48">
+                <ECUC-CONTAINER-VALUE UUID="706c2e33-1b19-4888-93d0-47b09f19067b">
                   <SHORT-NAME>MCU_EXTERNAL_PIN_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2120,7 +2120,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="b4afecdb-d2d4-45c5-a99c-a41fa3224952">
+                <ECUC-CONTAINER-VALUE UUID="358f72aa-7441-47be-afc3-884c2b2bbf35">
                   <SHORT-NAME>MCU_JTAG_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2130,7 +2130,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="6f4849a4-669e-4fba-8def-c68146eadc2a">
+                <ECUC-CONTAINER-VALUE UUID="3719548f-99e1-4eb3-b4c1-4f88c646205d">
                   <SHORT-NAME>MCU_LOSS_OF_CLOCK_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2140,7 +2140,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="73efdca7-96f2-41fc-9982-afbf2f3a9569">
+                <ECUC-CONTAINER-VALUE UUID="ae4672ac-f310-408d-b897-bbc9da56309f">
                   <SHORT-NAME>MCU_LOSS_OF_LOCK_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2150,7 +2150,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="f25b115d-1340-46d0-8c24-c9c6fe09fcde">
+                <ECUC-CONTAINER-VALUE UUID="537daf96-79aa-438b-8134-14a164a7a60b">
                   <SHORT-NAME>MCU_LOW_OR_HIGH_VOLTAGE_DETECT_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2160,7 +2160,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="4a917a07-f9ea-411d-acba-60212b883a63">
+                <ECUC-CONTAINER-VALUE UUID="06730509-5172-41d7-99b7-de575311c3fb">
                   <SHORT-NAME>MCU_MDM_AP_SYSTEM_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2170,7 +2170,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="88929bb4-88c7-4dd2-9cba-d79afcf34ba8">
+                <ECUC-CONTAINER-VALUE UUID="5519f0bf-98fe-41f2-84ca-0259dc06850b">
                   <SHORT-NAME>MCU_MULTIPLE_RESET_REASON</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2180,7 +2180,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="edd57860-7ddb-4e6f-96fe-85af913d8768">
+                <ECUC-CONTAINER-VALUE UUID="93604b55-c70b-4a25-9a6e-a5fa0f11e4f2">
                   <SHORT-NAME>MCU_NO_RESET_REASON</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2190,7 +2190,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="daccb858-01c9-4b99-b043-f48a87b0b674">
+                <ECUC-CONTAINER-VALUE UUID="569a3bb0-a220-4b11-98c2-513b7a52d3d7">
                   <SHORT-NAME>MCU_POWER_ON_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2200,7 +2200,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="4768de90-ce9e-49d4-870e-b22920c77d3e">
+                <ECUC-CONTAINER-VALUE UUID="ca2274d4-8845-4844-b5e7-a5f8b282b791">
                   <SHORT-NAME>MCU_RESET_UNDEFINED</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2210,7 +2210,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="78643085-7360-4907-9e86-c35f41e256b3">
+                <ECUC-CONTAINER-VALUE UUID="a8d7186a-0d7c-4f4a-8a49-bfa13bc95f1c">
                   <SHORT-NAME>MCU_STOP_ACKNOWLEDGE_ERROR_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2220,7 +2220,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="ef4ad891-383f-43ab-85b1-c2e9c6878387">
+                <ECUC-CONTAINER-VALUE UUID="dcee010b-fc8d-4a18-ae90-098b01f4d7f7">
                   <SHORT-NAME>MCU_SW_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -2230,7 +2230,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="492080d3-420e-43f5-9ca8-63f0113e5dde">
+                <ECUC-CONTAINER-VALUE UUID="8a613e40-64af-4384-b2fe-de19a048ed8b">
                   <SHORT-NAME>MCU_WATCHDOG_RESET</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M10I1R0/Mcu/McuPublishedInformation/McuResetReasonConf</DEFINITION-REF>
                   <PARAMETER-VALUES>

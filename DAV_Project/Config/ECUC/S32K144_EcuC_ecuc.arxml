@@ -321,7 +321,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="c435f0c2-558a-4c4f-afe5-829694ec7c04">
+                    <ECUC-CONTAINER-VALUE UUID="90c7ebb2-843e-4efd-871a-1d1e622a072a">
                       <SHORT-NAME>Port_Init</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuC/EcucGeneral/BswInitialization/InitFunction</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -353,7 +353,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="21d6fa99-721f-490d-a871-4e2bc8aa0179">
+                    <ECUC-CONTAINER-VALUE UUID="e8b2f970-97b3-4519-ad9e-1470f930803f">
                       <SHORT-NAME>Mcu_Init</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/MICROSAR/EcuC/EcucGeneral/BswInitialization/InitFunction</DEFINITION-REF>
                       <PARAMETER-VALUES>
